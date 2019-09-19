@@ -1,7 +1,7 @@
 # Design_teardown
 Objective: Analize the design used in smashing magazine page and represent it in a visual heatmap
 
-Project preview: **Remember to update the link** https://raw.githack.com/kitpao/using_gradients_for_Apple_old_page/master/index.html
+Project preview: **Remember to update the link** ...
 
 The  original Smashing Magazine page:
 
