@@ -3,7 +3,7 @@ Objective: Analize the design used in smashing magazine page and represent it in
 
 Project preview: **Remember to update the link** https://raw.githack.com/kitpao/using_gradients_for_Apple_old_page/master/index.html
 
-The archive of the original Smashing Magazine page:
+The  original Smashing Magazine page:
 
    * https://www.smashingmagazine.com/
 
@@ -25,6 +25,6 @@ Skills to use and requirements:
    * Align elements with float or flex and grids
    * Use article tags
    * Dynamic changes when you hover over some items
-   
+
 
 MUST: use of linterns, follow CSS best practices, use of CSS Reset, use W3c validation services, use Github flow guidelines to collaborate
