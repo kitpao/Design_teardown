@@ -8,21 +8,12 @@
 * 2. Prevent adjustments of font size after orientation changes in iOS.
 */
 
-html {
-  line-height: 1.15; /* 1 */
--webkit-text-size-adjust: 100%; /* 2 */
-}
-
 /* Sections
     ========================================================================== */
 
 /**
 * Remove the margin in all browsers.
 */
-
-body {
-  margin: 0;
-}
 
 /**
 * Render the `main` element consistently in IE.
@@ -62,7 +53,7 @@ hr {
 */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -105,7 +96,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -354,26 +345,31 @@ template {
   important: gray. Blue
   normal: dim gray. Purple
   less: very light gray. Light Blue
-  not-important: nothing. Gray */ 
+  not-important: nothing. Gray */
 
-/* Start of styling*/
+/* Start of styling */
 
-.very-important { background-color: darkgray;}
+.very-important { background-color: darkgray; }
 
-.important { background-color: lightslategray;}
+.important { background-color: lightslategray; }
 
-.normal { background-color: lightgrey;}
+.normal { background-color: lightgrey; }
 
 html {
-  font-size: 62.5%; 
-  box-sizing: border-box;   
+  font-size: 62.5%;
+  box-sizing: border-box;
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -399,7 +395,7 @@ header {
 .items {
   justify-content: space-around;
   display: flex;
-  width: 70%;;
+  width: 70%;
 }
 
 .item {
@@ -434,7 +430,7 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
-  height:  4rem;
+  height: 4rem;
   width: 9.5rem;
   background-color: black;
 }
@@ -448,9 +444,5 @@ header {
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
-  color: white;  
+  color: white;    
 }
-
-
-
-
