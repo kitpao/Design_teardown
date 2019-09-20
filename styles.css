@@ -21,6 +21,7 @@
 
 main {
   display: block;
+  font-family: 'Nunito', sans-serif;
 }
 
 /**
@@ -451,10 +452,6 @@ header {
   color: white;
 }
 
-main {
-  font-family: 'Nunito', sans-serif;
-}
-
 .articles_container {
   background-color: red;
   position: relative;
@@ -492,6 +489,7 @@ main {
 .arti * {
   margin-left: 10rem;
 }
+
 .arti h2 {
   font-size: 4.5rem;
   font-weight: 700;
