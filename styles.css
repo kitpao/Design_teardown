@@ -544,3 +544,21 @@ header {
 .element p {
   font-size: 2rem;
 }
+
+.large-image {
+  display: flex;
+  width: calc(50% - 1rem);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 1.5rem;
+  border-radius: 0.8rem;
+}
+
+.content {
+  height: 40rem;
+  width: 60%;
+  border-radius: 0.8rem;
+}
