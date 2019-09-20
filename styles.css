@@ -30,7 +30,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0 0;
 }
 
 /* Grouping content
@@ -349,11 +349,15 @@ template {
 
 /* Start of styling */
 
-.very-important { background-color: darkgray; }
+.very-important { background-color: #696969; }
 
-.important { background-color: lightslategray; }
+.important { background-color: #808080; }
 
-.normal { background-color: lightgrey; }
+.normal { background-color: #a9a9a9; }
+
+.less { background-color: #c0c0c0; }
+
+.notimp { background-color: #d3d3d3; }
 
 html {
   font-size: 62.5%;
@@ -370,11 +374,11 @@ body {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   display: flex;
 }
 
@@ -395,14 +399,15 @@ header {
 .items {
   justify-content: space-around;
   display: flex;
-  width: 70%;
+  flex: 5;
 }
 
 .item {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .item h1 {
@@ -432,7 +437,6 @@ header {
   border-radius: 0.5rem;
   height: 4rem;
   width: 9.5rem;
-  background-color: black;
 }
 
 .search-block svg {
@@ -445,4 +449,56 @@ header {
   font-size: 1.4rem;
   font-weight: 700;
   color: white;
+}
+
+main {
+  font-family: 'Nunito', sans-serif;
+}
+
+.articles_container {
+  background-color: red;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  height: 167rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.title {
+  position: absolute;
+  left: calc(50% - 20rem);
+  top: 4.5rem;
+  width: 40rem;
+  max-height: 80rem;
+}
+
+.title .text {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 5rem;
+  font-weight: 800;
+}
+
+.arti {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.arti * {
+  margin-left: 10rem;
+}
+.arti h2 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  max-width: 75%;
+}
+
+.representation {
+  height: 10rem;
+  width: 10rem;
 }
