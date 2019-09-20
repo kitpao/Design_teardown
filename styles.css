@@ -518,18 +518,18 @@ header {
 }
 
 .post h1 {
-  font-size: 3rem; 
+  font-size: 3rem;
 }
 
 .latest-posts p {
-  font-size: 2rem; 
+  font-size: 2rem;
   line-height: 2;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .flat-file {
   display: flex;
-  width: calc(25% - 1rem);  
+  width: calc(25% - 1rem);
   justify-content: center;
   align-items: center;
 }
