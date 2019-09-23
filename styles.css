@@ -594,7 +594,7 @@ header {
 .community-links {
   display: flex;
   padding: 8rem;
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 2rem;
   line-height: 2;
@@ -612,6 +612,6 @@ header {
   margin: 1.5rem;
 }
 
-.person-text span{
+.person-text span {
   color: #666;
 }
