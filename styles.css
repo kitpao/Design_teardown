@@ -386,7 +386,7 @@ header {
 .logo {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: center;808080
   width: 15%;
   padding-top: 1.5rem;
 }
@@ -431,11 +431,14 @@ header {
   width: 15%;
 }
 
-.search-block {
+.btn {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
+}
+
+.search-block {
   height: 4rem;
   width: 9.5rem;
 }
@@ -561,4 +564,54 @@ header {
   height: 40rem;
   width: 60%;
   border-radius: 0.8rem;
+}
+
+.green-banner {
+  display: flex;
+  height: 100rem;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(#808080 1% 55%, #a9a9a9 75%, #c0c0c0 95% 100%);
+}
+
+.banner-title {
+  font-size: 4.8rem;
+}
+
+.banner-btn {
+  height: 8rem;
+  width: 45rem;
+}
+
+.banner-img {
+  height: 60rem;
+  width: 90rem;
+  border: #696969 1px solid;
+}
+
+.community-links {
+  display: flex;
+  padding: 8rem;
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: 0.04rem;
+}
+
+.person-week {
+  overflow: hidden;
+}
+
+.person-img {
+  float: left;
+  height: 25rem;
+  width: 25rem;
+  margin: 1.5rem;
+}
+
+.person-text span{
+  color: #666;
 }
