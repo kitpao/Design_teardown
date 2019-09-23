@@ -651,7 +651,7 @@ header {
 .design-img {
   width: 20rem;
   height: 30rem;
-  position : relative;
+  position: relative;
   top: -8rem;
 }
 
@@ -663,7 +663,7 @@ header {
   justify-content: space-around;
 }
 
-.guides h1 {
+.guidestitle {
   width: 60%;
   font-size: 2.4rem;
 }
