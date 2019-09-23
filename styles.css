@@ -380,6 +380,7 @@ body {
 
 header {
   width: 100%;
+  height: 20rem;
   display: flex;
 }
 
@@ -394,13 +395,14 @@ header {
 .logo img {
   object-fit: cover;
   width: auto;
-  height: 6.5rem;
+  height: 8.5rem;
 }
 
 .items {
   justify-content: space-around;
   display: flex;
   flex: 5;
+  padding-bottom: 4rem;
 }
 
 .item {
@@ -510,9 +512,11 @@ header {
   width: inherit;
   height: 62rem;
   padding: 2rem 2rem;
+  align-items: flex-start;
 }
 
 .post {
+  height: 100%;
   display: flex;
   width: calc(25% - 1rem);
   flex-direction: column;
@@ -531,6 +535,7 @@ header {
 }
 
 .flat-file {
+  margin-top: 4em;
   display: flex;
   width: calc(25% - 1rem);
   justify-content: center;
@@ -551,6 +556,7 @@ header {
 .large-image {
   display: flex;
   width: calc(50% - 1rem);
+  height: 100%;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
@@ -588,21 +594,26 @@ header {
 .banner-img {
   height: 60rem;
   width: 90rem;
-  border: #696969 1px solid;
+  border: #666 1px solid;
 }
 
 .community-links {
   display: flex;
+  flex-direction: column;
+  height: 160rem;
   padding: 8rem;
   font-family: 'Times New Roman', Times, serif;
   font-weight: normal;
   font-size: 2rem;
   line-height: 2;
   letter-spacing: 0.04rem;
+  margin-bottom: 10rem;
 }
 
 .person-week {
   overflow: hidden;
+  width: 100%;
+  margin-bottom: 15rem;
 }
 
 .person-img {
@@ -614,6 +625,41 @@ header {
 
 .person-text span {
   color: #666;
+}
+
+.community-container {
+  display: flex;
+  width: 100%;
+}
+
+.grid {
+  clear: both;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  grid-gap: 2rem;
+  grid-row-gap: 4rem;
+  height: 100rem;
+}
+
+.community {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.community-img {
+  width: 9rem;
+  height: 9rem;
+  margin-right: 3rem;
+}
+
+.community-text {
+  flex: 1;
+}
+
+.community-header {
+  font-family: 'Nunito', sans-serif;
 }
 
 .design-system {
@@ -665,7 +711,7 @@ header {
 
 .guidestitle {
   width: 60%;
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 .col {
@@ -706,4 +752,26 @@ header {
 .newsletter-img {
   width: 35rem;
   height: 30rem;
+}
+
+.final {
+  position: relative;
+  margin-top: 35rem;
+  width: 100%;
+  height: 70rem;
+  padding-top: 15rem;
+}
+
+.final-links {
+  width: 90%;
+  height: 18rem;
+  margin: 0 auto;
+}
+
+.final-img {
+  position: relative;
+  height: 20rem;
+  width: 20rem;
+  top: 13rem;
+  left: 25rem;
 }
