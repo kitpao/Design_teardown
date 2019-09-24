@@ -540,7 +540,8 @@ header {
   padding: 1.5rem;
 }
 
-.post h1 {
+.post h2, 
+.post-new h2 {
   font-size: 3rem;
 }
 
@@ -639,8 +640,9 @@ header {
   margin: 1.5rem;
 }
 
-.person-text span {
+.person-text h4 {
   color: #666;
+  font-weight: 300;
 }
 
 .community-container {
@@ -694,7 +696,7 @@ header {
   width: 55%;
 }
 
-.design-system article h1 {
+.design-system article h2 {
   width: 23rem;
   font-size: 3rem;
 }
