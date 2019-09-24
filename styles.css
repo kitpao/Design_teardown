@@ -540,7 +540,7 @@ header {
   padding: 1.5rem;
 }
 
-.post h2, 
+.post h2,
 .post-new h2 {
   font-size: 3rem;
 }
@@ -793,3 +793,24 @@ header {
   top: 13rem;
   left: 25rem;
 }
+
+footer {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  line-height: 2;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer ul li {
+  list-style: none;
+  display: inline;
+}
+
+footer ul li:before {
+  content: "  \00b7  ";
+ }
