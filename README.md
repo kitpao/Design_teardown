@@ -24,7 +24,6 @@ Skills to use and requirements:
    * Identify the visual impact of the elements used in the original page
    * Align elements with float or flex and grids
    * Use article tags
-   * Dynamic changes when you hover over some items
 
 
 MUST: use of linterns, follow CSS best practices, use of CSS Reset, use W3c validation services, use Github flow guidelines to collaborate
