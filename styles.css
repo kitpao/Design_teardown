@@ -458,7 +458,6 @@ header {
 }
 
 .articles_container {
-  background-color: red;
   position: relative;
   display: flex;
   margin: 0 auto;
@@ -506,10 +505,27 @@ header {
   width: 10rem;
 }
 
+.latest-post {
+  display: grid;
+  width: 70%;
+  grid-template-rows: 100%;
+  grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 4rem;
+  height: 59rem;
+}
+
+.post-new  {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1.5rem;
+}
+
 .latest-posts {
   display: flex;
   justify-content: space-between;
-  width: inherit;
+  width: 100%;
   height: 62rem;
   padding: 2rem 2rem;
   align-items: flex-start;
