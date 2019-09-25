@@ -507,7 +507,7 @@ header {
 
 .latest-post {
   display: grid;
-  width: 70%;
+  width: 100%;
   grid-template-rows: 100%;
   grid-template-columns: 33% 33% 33%;
   grid-row-gap: 4rem;
@@ -551,13 +551,13 @@ header {
   font-family: 'Times New Roman', Times, serif;
 }
 
-.flat-file {
+/*.flat-file {
   margin-top: 4em;
   display: flex;
   width: calc(25% - 1rem);
   justify-content: center;
   align-items: center;
-}
+}*/
 
 .element {
   height: auto;
@@ -776,8 +776,12 @@ header {
   position: relative;
   margin-top: 35rem;
   width: 100%;
-  height: 70rem;
+  height: 75rem;
   padding-top: 15rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  line-height: 2;
+  text-align: center;
 }
 
 .final-links {
@@ -794,23 +798,34 @@ header {
   left: 25rem;
 }
 
-footer {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 3rem;
-  line-height: 2;
-  text-align: center;
-}
-
-footer a {
+.final a {
   text-decoration: none;
   color: inherit;
 }
 
-footer ul li {
+.final ul {
+  padding-left: 0;
+}
+
+.final ul li {
   list-style: none;
   display: inline;
 }
 
-footer ul li::before {
+.final ul li::before {
   content: "  \00b7  ";
+}
+
+.footer-links {
+  position: absolute;
+  width: 30%;
+  height: 10rem;
+  top: 75%;
+  left: 35%;
+  font-size: 1.8rem;
+}
+
+.footer-links ul {
+  position: absolute;
+  bottom: 0;
 }
