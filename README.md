@@ -1,7 +1,7 @@
 # Design_teardown
 Objective: Analize the design used in smashing magazine page and represent it in a visual heatmap
 
-Project preview: https://raw.githack.com/kitpao/Design_teardown/the_branch/index.html
+Project preview: https://raw.githack.com/kitpao/Design_teardown/master/index.html
 
 The  original Smashing Magazine page:
 
