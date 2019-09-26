@@ -1,7 +1,7 @@
 # Design_teardown
 Objective: Analize the design used in smashing magazine page and represent it in a visual heatmap
 
-Project preview: **Remember to update the link** https://raw.githack.com/kitpao/using_gradients_for_Apple_old_page/master/index.html
+Project preview: https://raw.githack.com/kitpao/Design_teardown/the_branch/index.html
 
 The  original Smashing Magazine page:
 
@@ -24,7 +24,6 @@ Skills to use and requirements:
    * Identify the visual impact of the elements used in the original page
    * Align elements with float or flex and grids
    * Use article tags
-   * Dynamic changes when you hover over some items
 
 
 MUST: use of linterns, follow CSS best practices, use of CSS Reset, use W3c validation services, use Github flow guidelines to collaborate
